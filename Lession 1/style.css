@@ -1,13 +1,82 @@
-table, caption{
-    width: 400px;
+*{
+    padding: 0;
+    margin: 0;
 }
-th, caption{
-    text-align: center;
+body{
+    background-color: rgb(253, 188, 142);
 }
-table, th, td{
-    border: 1px solid #da0049;
-    border-collapse: collapse;
+#image{
+    width: 490px;
+    height: 490px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    float: left;
 }
-th, td{
-    padding: 10px;
+#image .img{
+    width: 490px;
+    height: 490px;
+    margin-left: 5px;
+    border-radius: 5px;
+    float: left;
+}
+#content{
+    width: 300px;
+    height: 450px;
+    margin-left: 70px;
+    margin-top: 50px;  
+    display: inline-block;
+}
+#content h5{
+    margin-top: 40px;
+    font-family: sans-serif;
+    color: rgb(99, 99, 99);
+    font-size: 12px;
+}
+#content h2{
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+}
+#content .adress{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgb(99, 99, 99);
+}
+#content .paragraph{
+    margin-top: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(99, 99, 99);
+}
+#content .author{
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 12px;
+    color: rgb(99, 99, 99);
+}
+#content .phone{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(99, 99, 99);
+
+    /* margin-left: 20px; */
+    font-size: 13px;
+}
+#content .phone a{
+    color: rgb(99, 99, 99);
+}
+#main{
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 2px 2px 20px 1px rgb(141, 141, 141);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 10px;
 }
