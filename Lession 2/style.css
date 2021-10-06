@@ -9,20 +9,27 @@
 header{
     background-color:white;
     height: 100px;
+    position: relative;
 }
 header .logo{
     width: 100px;
     height: 100px;
-    display: inline-block;
+    margin-left: 20px;
+    display: inline;
     float: left;
+    position: absolute;
+    left: 0;
 }
-header .title{
+
+header .TieuDe .title{
     text-align: center;
-    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
     font-size: 50px;
 }
-header p{
+header .TieuDe p{
     font-size: 15px;
+    font-family: monospace;
     text-align: center;
 }
 nav{
@@ -38,7 +45,7 @@ nav .menu ul{
     border-width:1px 0;
     list-style: none;
     text-align: center;
-    
+
 }
 
 nav .menu ul li{
