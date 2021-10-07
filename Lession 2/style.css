@@ -1,62 +1,105 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.container{
-    width: 1080px;
-    margin: 0 auto;
+.container {
+  width: 1080px;
+  margin: 0 auto;
 }
-header{
-    background-color:white;
-    height: 100px;
-    position: relative;
+header {
+  background-color: white;
+  height: 100px;
+  position: relative;
 }
-header .logo{
-    width: 100px;
-    height: 100px;
-    margin-left: 20px;
-    display: inline;
-    float: left;
+header .logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  display: inline;
+  float: left;
+  position: absolute;
+  left: 0;
+}
+
+header .TieuDe .title {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 15px;
+  font-size: 50px;
+}
+header .TieuDe p {
+  font-size: 15px;
+  font-family: monospace;
+  text-align: center;
+}
+nav {
+  height: 25px;
+  margin-top: 10px;
+}
+nav .menu {
+  height: 25px;
+  margin: 0 auto;
+}
+nav .menu ul {
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav .menu ul li {
+  display: inline;
+  padding: 0 15px;
+}
+nav .menu ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  /* text-align: center; */
+}
+.dropdown {
+  width: 100%;
+  max-width: 15rem;
+  margin: 5rem auto;
+  position: relative;
+}
+.dropdown_select {
+  width: 100%;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.dropdown_list{
+    width: 100%;
     position: absolute;
-    left: 0;
+    display: none;
 }
-
-header .TieuDe .title{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 15px;
-    font-size: 50px;
-}
-header .TieuDe p{
-    font-size: 15px;
-    font-family: monospace;
-    text-align: center;
-}
-nav{
-    height: 25px;
-    margin-top: 10px;
-}
-nav .menu{
-    height: 25px;
-    margin: 0 auto;
-}
-nav .menu ul{
-    border:1px solid #ccc;
-    border-width:1px 0;
-    list-style: none;
-    text-align: center;
-
-}
-
-nav .menu ul li{
-    display: inline;
-    padding: 0 15px
-}
-nav .menu ul li a{
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.dropdown_item {
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    display: inline-block;
-    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+}
+.dropdown_item:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+.dropdown:hover .dropdown_list{
+    display: block;
 }
