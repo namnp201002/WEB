@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    width: 80%;
+    margin: 0 auto;
+    background-color: snow;
+}
+header{
+    background-color: darkslategrey;    
+}
+.NenTang{
+    margin-right: 35rem;
+    cursor: pointer;
+    padding: 10px;
+    background-color: darkslategrey;
+    font-size: 15px;
+    text-align: center;
+    transition: background-color 0.2s linear;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: floralwhite;
+}
+.Header{
+    position: relative;
+    height: 40px;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin-right: 30px;
+}
+.Header .List_Item{
+    cursor: pointer;
+    padding: 10px;
+    background-color: darkslategrey;
+    font-size: 15px;
+    text-align: center;
+    transition: background-color 0.2s linear;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: floralwhite;
+    
+}
+
+.Header .List_Item:hover{
+    border-bottom: 2px solid white;
+    background-color: rgb(80, 97, 97);
+}
+.Body{
+    display: flex;
+}
+.container{
+    /* background-color: yellow; */
+    width: 20%;
+    height: 1000px;
+}
+.main{
+    width: 80%;
+    /* background-color: red ; */
+    height: 1000px;
+}
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-size: 30px;
+}
+.list{
+    padding: 10px;
+    list-style: none;
+    display: block;
+}
+.category{
+    padding: 10px;
+    border: 1px solid black;
+}
+.link_Category{
+    text-decoration: none;
+}
+.slider{
+    display: flex;
+    padding: 10px;
+}
+.IMG{
+    width: 100%; 
+}
+.list_content{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list_item{
+    box-shadow: 1px 3px 5px rgb(199, 199, 199);
+    background-color: white;
+    width: 30%;
+    margin-bottom: 20px;
+}
+.list_image{
+    width: 100%;
+}
+h3{
+    margin: 5px;
+}
+h3 a{
+    font-size: 25px;
+    text-decoration: none;
+    color: dodgerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+    font-size: 20px;
+    margin: 5px;
+}
+p{
+    margin: 5px;
+    font-size: 19px;
+}
+.feedback{
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    margin-top: 10px;
+}
+footer{
+    color: white;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(23, 23, 34);
+}
+.Footer{
+    padding-top: 15px;
+}
