@@ -95,14 +95,14 @@ header{
 .list_item{
     box-shadow: 1px 3px 5px rgb(199, 199, 199);
     background-color: white;
-    width: 30%;
+    width: 31%;
     margin-bottom: 20px;
 }
 .list_image{
     width: 100%;
 }
 h3{
-    margin: 5px;
+    margin: 10px;
 }
 h3 a{
     font-size: 25px;
@@ -112,11 +112,12 @@ h3 a{
 }
 h4{
     font-size: 20px;
-    margin: 5px;
+    margin: 10px;
 }
 p{
-    margin: 5px;
+    padding: 10px;
     font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .feedback{
     background-color: rgb(211, 211, 211);
