@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: chartreuse;
+}
 .body{
     width: 80%;
     margin: 0 auto;
@@ -78,6 +81,7 @@ header{
 .slider{
     display: flex;
     padding: 10px;
+    padding-top: 0;
 }
 .IMG{
     width: 100%; 
