@@ -1,0 +1,40 @@
+.header{
+    padding-bottom: 90px;
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-auth{
+        display: flex;
+        align-items: center;
+        gap: 0 30px;
+        text-transform: capitalize; // chu cai dau tien cua moi thanh phan la chu hoa
+    }
+    &-signin{
+        font-weight: 500;
+        color: $heading-color;
+        text-decoration: none;
+        
+    }
+    &-signup{
+        font-weight: 500;
+        color: $heading-color;
+        text-decoration: none;
+        color: $primary-color;
+        padding: 13px 45px;
+        border: 1px solid $primary-color;
+        border-radius: 50px;
+    }
+}
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0 40px;
+    &-link{
+        text-decoration: none;
+        color: inherit; // inherit la ke thua thuoc tinh tu cha cua no
+
+    }
+}

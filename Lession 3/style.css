@@ -1,140 +1,175 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-body{
-    background-color: chartreuse;
+body {
+  background-color: chartreuse;
 }
-.body{
-    width: 80%;
-    margin: 0 auto;
-    background-color: snow;
+.body {
+  width: 80%;
+  margin: 0 auto;
+  background-color: snow;
 }
-header{
-    background-color: darkslategrey;    
+/* Header */
+header {
+  background-color: darkslategrey;
 }
-.NenTang{
-    margin-right: 35rem;
-    cursor: pointer;
-    padding: 10px;
-    background-color: darkslategrey;
-    font-size: 15px;
-    text-align: center;
-    transition: background-color 0.2s linear;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: floralwhite;
+.NenTang {
+  margin-right: 30rem;
+  cursor: pointer;
+  padding: 15px;
+  background-color: darkslategrey;
+  font-size: 15px;
+  text-align: center;
+  transition: background-color 0.2s linear;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: floralwhite;
 }
-.Header{
-    position: relative;
-    height: 40px;
-    display: flex;
-    list-style: none;
-    justify-content: right;
-    margin-right: 30px;
+.Header {
+  position: relative;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: right;
+  margin-right: 30px;
 }
-.Header .List_Item{
-    cursor: pointer;
-    padding: 10px;
-    background-color: darkslategrey;
-    font-size: 15px;
-    text-align: center;
-    transition: background-color 0.2s linear;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: floralwhite;
-    
+.Header .List_Item {
+  height: 100%;
+  width: 70px;
+  /* width: 15%; */
+  cursor: pointer;
+  padding: 15px;
+  background-color: darkslategrey;
+  font-size: 15px;
+  text-align: center;
+  transition: background-color 0.2s linear;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: floralwhite;
+  position: relative;
+  transition: background-color 0.2s linear;
+}
+.List_Item:not(:nth-child(2))::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  transform: scale(0,1);
+  transition: transform 0.2s linear;
+}
+.TrangChu::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  left: 0;
+  bottom: 0;
 }
 
-.Header .List_Item:hover{
-    border-bottom: 2px solid white;
-    background-color: rgb(80, 97, 97);
+.List_Item.List_Item:not(:nth-child(2)):hover{
+  background-color: rgb(66, 104, 104);
 }
-.Body{
-    display: flex;
+.List_Item:not(:nth-child(2)):hover::before {
+  transform:scale(1,1) ;
 }
-.container{
-    /* background-color: yellow; */
-    width: 20%;
-    /* height: 1000px; */
+.TrangChu{
+  background-color: rgb(66, 104, 104);
 }
-.main{
-    width: 80%;
-    /* background-color: red ; */
-    /* height: 1000px; */
+/* Main */
+.Body {
+  display: flex;
 }
-.title{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-    font-size: 30px;
+.container {
+  /* background-color: yellow; */
+  width: 20%;
+  /* height: 1000px; */
 }
-.list{
-    padding: 10px;
-    list-style: none;
-    display: block;
+.main {
+  width: 80%;
+  /* background-color: red ; */
+  /* height: 1000px; */
 }
-.category{
-    padding: 10px;
-    border: 1px solid black;
+.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  font-size: 30px;
 }
-.link_Category{
-    text-decoration: none;
+.list {
+  padding: 10px;
+  list-style: none;
+  display: block;
 }
-.slider{
-    display: flex;
-    padding: 10px;
-    padding-top: 0;
+.category {
+  padding: 10px;
+  border: 1px solid black;
 }
-.IMG{
-    width: 100%; 
+.link_Category {
+  text-decoration: none;
 }
-.list_content{
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.slider {
+  display: flex;
+  padding: 10px;
+  padding-top: 0;
 }
-.list_item{
-    box-shadow: 1px 3px 5px rgb(199, 199, 199);
-    background-color: white;
-    width: 31%;
-    margin-bottom: 20px;
+.IMG {
+  width: 100%;
 }
-.list_image{
-    width: 100%;
+.list_content {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-h3{
-    margin: 10px;
+.list_item {
+  box-shadow: 1px 3px 5px rgb(199, 199, 199);
+  background-color: white;
+  width: 31%;
+  margin-bottom: 20px;
 }
-h3 a{
-    font-size: 25px;
-    text-decoration: none;
-    color: dodgerblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.list_image {
+  width: 100%;
 }
-h4{
-    font-size: 20px;
-    margin: 10px;
+h3 {
+  margin: 10px;
 }
-p{
-    padding: 10px;
-    font-size: 19px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+h3 a {
+  font-size: 25px;
+  text-decoration: none;
+  color: dodgerblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.feedback{
-    background-color: rgb(211, 211, 211);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 40px;
-    margin-top: 10px;
+h4 {
+  font-size: 20px;
+  margin: 10px;
 }
-footer{
-    color: white;
-    align-items: center;
-    text-align: center;
-    height: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(23, 23, 34);
+p {
+  padding: 10px;
+  font-size: 19px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.Footer{
-    padding-top: 15px;
+.feedback {
+  background-color: rgb(211, 211, 211);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  margin-top: 10px;
+}
+/* Footer */
+footer {
+  color: white;
+  height: 70px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(23, 23, 34);
+}
+.Footer {
+  height: 70px;
+  /* padding-top: 15px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

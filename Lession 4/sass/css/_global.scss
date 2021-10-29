@@ -1,0 +1,39 @@
+@import './variables';
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    // background-color: red;
+}
+.container{
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+body{
+    line-height: 1;
+    font-family: $font;
+    color: $text-color;
+    font-weight: 400;
+}
+
+.button{
+    text-decoration: none;
+    display: inline-block;
+    padding: 13px 45px;
+    border-radius: 100rem;
+    font-family: $font;
+    line-height: 1;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    &--primary{
+        font-weight: 700;
+        color: white;
+        background-color: $primary-color;
+    }
+    &--outline{
+        border: 1px solid $primary-color;
+        color: $primary-color;
+    }
+}
