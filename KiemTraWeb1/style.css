@@ -27,6 +27,10 @@ li a{
     text-decoration: none;
     color: black;
     font-size: 20px;
+    transition: color 0.2s linear;
+}
+li a:hover{
+    color: darkorange;
 }
 .home{
     color: darkorange;
@@ -87,7 +91,7 @@ li a{
         flex-direction: column;
     }
     .main-image{
-        
+
     }
     .image-item{
         width: 500px;
