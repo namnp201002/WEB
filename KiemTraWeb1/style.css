@@ -51,13 +51,31 @@ li a{
     grid-template-rows: 50% 50%;
     gap: 10px 10px;
     padding: 10px;
+    padding-bottom: 20px;
 }
 .main-image{
     overflow: hidden;
-    border-radius: 10px;
+    
 }
 .image-item{
+    border-radius: 10px;
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
+.h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+@media screen and (max-width: 1035px){
+    .header-container{
+        height: 50px;
+    }
+    li{
+        width: 100px;
+    }
+    li a{
+        font-size: 15px;
+    }
+}
+    
