@@ -35,6 +35,9 @@
     &-link{
         text-decoration: none;
         color: inherit; // inherit la ke thua thuoc tinh tu cha cua no
-
+        transition: color 0.2s ease;
+    }
+    &-link:hover{
+        color:$primary-color;
     }
 }

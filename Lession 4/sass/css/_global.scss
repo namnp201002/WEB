@@ -35,5 +35,11 @@ body{
     &--outline{
         border: 1px solid $primary-color;
         color: $primary-color;
+        transition: background-color 0.2s linear;
+        // transition: color 0.3s linear;
+    }
+    &--outline:hover{
+        background-color: $primary-color;
+        color: white;
     }
 }

@@ -35,6 +35,11 @@ body {
 .button--outline {
   border: 1px solid #F53838;
   color: #F53838;
+  transition: background-color 0.2s linear;
+}
+.button--outline:hover {
+  background-color: #F53838;
+  color: white;
 }
 
 .header {
@@ -75,6 +80,10 @@ body {
 .menu-link {
   text-decoration: none;
   color: inherit;
+  transition: color 0.2s ease;
+}
+.menu-link:hover {
+  color: #F53838;
 }
 
 .hero-container {
