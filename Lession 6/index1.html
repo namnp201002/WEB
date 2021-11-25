@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            h1{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+         
+        <script>
+            var a = prompt("Nhập a:", a);
+            var b = prompt("Nhập b:", b);
+            var c = prompt("Nhập c:", c);
+            var d = b * b - 4 * a * c;
+            if (d < 0) {
+                document.write("<h1>Phương Trình Vô nghiệm</h1>");
+            } else if (d == 0) {
+                var s = "Phương trình có nghiệm kép x1 = x2 = " + (-b / 2 * a);
+                document.write("<h1>" + s + "</h1>");
+            } else {
+                var s1 = "x1 = " + (-b + Math.sqrt(d)) / 2 * a;
+                var s2 = "x2 = " + (-b - Math.sqrt(d)) / 2 * a;
+                document.write("<h1>" + s1 + "</h1>");
+                document.write("<h1>" + s2 + "</h1>");
+            }
+        </script>
+    </body>
+</html>
