@@ -40,14 +40,15 @@
 </head>
 <body>
     <div class="container">
-        <button>Click Here</button>
+        <button id="BUTTON">Click Here</button>
         <div id="Table">
 
         </div>
     </div>
     <script>
-        let buttonGet = document.querySelector('button');
-        let myTable = document.querySelector('#Table');
+        let buttonGet = document.getElementById('BUTTON');
+        let myTable = document.getElementById('Table');
+        
         let object = [
             {ten: 'Nguyen Van A', gioiTinh: 'Nam'  ,tuoi: 20},
             {ten: 'Nguyen Van B', gioiTinh: 'Nam'  ,tuoi: 21},
@@ -55,7 +56,6 @@
             {ten: 'Nguyen Van D', gioiTinh: 'Nam'  ,tuoi: 23}
         ]
         let headers = ['Tên', 'Giới tính', 'Tuổi'];
-
         buttonGet.addEventListener('click', () =>{
             let Table = document.createElement('table');
             let headerRow = document.createElement('tr');
@@ -66,7 +66,6 @@
                 headerRow.appendChild(header);
             })
             Table.appendChild(headerRow);
-            myTable.appendChild(Table);
             object.forEach(obj =>{
                 let row = document.createElement('tr');
                 Object.values(obj).forEach(item =>{
@@ -78,6 +77,7 @@
                 Table.appendChild(row);
 
             })
+            myTable.appendChild(Table);
         }, {once : true});
         
         
