@@ -1,0 +1,39 @@
+.header{
+    padding-top: 16px;
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &--menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            .menu-item{
+                font-weight: 500px;
+                font-size: 14px;
+                margin-left: 32px;
+                font-family: 'Inter';
+                
+            }
+        }
+    }
+    &-nav{
+        .logolink{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        display: flex;
+    }
+    &-app{
+        .Apple{
+            margin-left: 12px;
+        }
+    }
+}
+a{
+    text-decoration: none;
+    color: #18191F;
+}
+

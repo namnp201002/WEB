@@ -1,0 +1,282 @@
+body {
+  margin: 0 auto;
+}
+
+.wrappers {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 165px;
+}
+
+.wrapper {
+  width: 1440px;
+  height: 866px;
+  margin: 0 auto;
+  padding: 0 0;
+  background-size: cover;
+  background: url(../Image/Background.svg);
+}
+
+.header {
+  padding-top: 16px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container--menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.header-container--menu .menu-item {
+  font-weight: 500px;
+  font-size: 14px;
+  margin-left: 32px;
+  font-family: "Inter";
+}
+.header-nav {
+  display: flex;
+}
+.header-nav .logolink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-app .Apple {
+  margin-left: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #18191F;
+}
+
+.main1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 165px;
+  padding-top: 96px;
+}
+.main1-right .phone {
+  width: 350px;
+  height: 640px;
+}
+.main1-left {
+  font-family: "Inter";
+}
+.main1-left .title {
+  margin-top: 72px;
+  font-family: Inter, serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  color: #18191F;
+}
+.main1-left .button-getStart {
+  color: white;
+  padding: 12px 32px;
+  background: #8C30F5;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 32px 0px;
+}
+
+.logo-clouds {
+  width: 1440px;
+  height: 142px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-clouds .logo-section {
+  padding: 16px 165px;
+  border-top: 1px solid rgba(192, 204, 218, 0.6);
+  border-bottom: 1px solid rgba(192, 204, 218, 0.6);
+}
+.logo-clouds .logo-section .logos {
+  display: flex;
+  padding: 15px 109.5px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-clouds .logo-section .logos .logo {
+  padding: 16px 32px;
+}
+
+.feature {
+  width: 1440px;
+  height: 672px;
+  font-family: Inter;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #18191F;
+}
+.feature-header {
+  padding: 64px 450px 48px 450px;
+}
+.feature-header .section-heading {
+  margin: 0 auto;
+  margin-bottom: 8px;
+  font-weight: 800px;
+  font-size: 48px;
+  line-height: 64px;
+  color: #18191F;
+}
+.feature-header .des {
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191F;
+}
+.feature-list {
+  width: 1110px;
+  height: 360px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 64px 32px;
+}
+.feature-title {
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+.feature-description {
+  margin: 0 auto;
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.testimonial {
+  width: 1440px;
+  height: 896px;
+  background: url(../Image/7.svg);
+  font-family: Inter;
+  color: #18191F;
+  position: relative;
+  display: flex;
+}
+.testimonial .section-heading {
+  position: absolute;
+  width: 445px;
+  height: 168px;
+  top: 120px;
+  left: 260px;
+}
+.testimonial .section-heading .heading {
+  margin: 0 auto;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+}
+.testimonial .section-heading .description {
+  margin: 0 auto;
+}
+.testimonial-item1 {
+  width: 350px;
+  height: 468px;
+  margin-top: 312px;
+  margin-left: 355px;
+  background-color: white;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+}
+.testimonial-item1 .logo-hubsport {
+  width: 140px;
+  height: 40px;
+  padding-top: 32px;
+  padding-left: 32px;
+}
+.testimonial-item1 .feedback {
+  padding-right: 32px;
+  width: 254px;
+  height: 256px;
+  font-size: 18px;
+  line-height: 32px;
+}
+.testimonial-item1 .text {
+  padding-left: 64px;
+}
+.testimonial-items {
+  margin-left: 30px;
+}
+.testimonial-item2 {
+  width: 445px;
+  height: 340px;
+  margin-top: 168px;
+  background-color: white;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+}
+.testimonial-item2 .logo-airbnb {
+  width: 130px;
+  height: 40px;
+  padding-top: 32px;
+  padding-left: 32px;
+}
+.testimonial-item2 .feedback {
+  width: 349px;
+  height: 128px;
+  font-size: 18px;
+  line-height: 32px;
+}
+.testimonial-item2 .text {
+  padding-left: 64px;
+}
+.testimonial-item3 {
+  width: 350px;
+  height: 276px;
+  margin-top: 32px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+}
+.testimonial-item3 .logo-FedEx {
+  padding-top: 32px;
+  padding-left: 32px;
+}
+.testimonial-item3 .feedback {
+  width: 254px;
+  height: 64px;
+}
+.testimonial-item3 .text {
+  padding-left: 64px;
+}
+.testimonial .feedback {
+  font-size: 18px;
+  line-height: 32px;
+}
+.testimonial .company {
+  margin: 0 auto;
+  color: #969BAB;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+.testimonial .author {
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/*# sourceMappingURL=style.css.map */

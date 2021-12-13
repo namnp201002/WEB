@@ -1,0 +1,112 @@
+.testimonial{
+    width: 1440px;
+    height: 896px;
+    background: url(../Image/7.svg);
+    font-family: Inter;
+    color: #18191F;
+    position: relative;
+    display: flex;
+    .section-heading{
+        position: absolute;
+        width: 445px;
+        height: 168px;
+        top: 120px;
+        left: 260px;
+        .heading{
+            margin: 0 auto;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 64px;
+        }
+        .description{
+            margin: 0 auto;
+        }
+    }    
+    &-item1{
+        width: 350px;
+        height: 468px;
+        margin-top: 312px;
+        margin-left: 355px;
+        background-color: white;
+        box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+        border-radius: 8px;
+        .logo-hubsport{
+            width: 140px;
+            height: 40px;
+            padding-top: 32px;
+            padding-left: 32px;
+        }
+        .feedback{
+            padding-right: 32px;
+            width: 254px;
+            height: 256px;
+            font-size: 18px;
+            line-height: 32px;
+        }
+        .text{
+            padding-left: 64px;
+        }
+    }
+    &-items{
+        margin-left: 30px;
+    }
+    &-item2{
+        width: 445px;
+        height: 340px;
+        margin-top: 168px;
+        background-color: white;
+        box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+        border-radius: 8px;
+        .logo-airbnb{
+            width: 130px;
+            height: 40px;
+            padding-top: 32px;
+            padding-left: 32px;
+        }
+        .feedback{
+            width: 349px;
+            height: 128px;
+            font-size: 18px;
+            line-height: 32px;
+        }
+        .text{
+            padding-left: 64px;
+        }
+    }
+    &-item3{
+        width: 350px;
+        height: 276px;
+        margin-top: 32px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+        border-radius: 8px;
+        .logo-FedEx{
+            padding-top: 32px;
+            padding-left: 32px;
+        }
+        .feedback{
+            width: 254px;
+            height: 64px;
+        }
+        .text{
+            padding-left: 64px;
+        }
+    }
+    .feedback{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .company{
+        margin: 0 auto;
+        color: #969BAB;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .author{
+        margin: 0 auto;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

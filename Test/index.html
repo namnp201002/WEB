@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+</head>
+<body>
+    <script>
+        var a = [
+            {'Dai': 10, 'Rong': 5},
+            {'Dai': 8, 'Rong': 4},
+            {'Dai': 20, 'Rong': 6},
+            {'Dai': 15, 'Rong': 10}
+        ];
+        let arrayS = a.filter(item =>{
+            return item.Dai >= 10;
+        }).sort((a, b) => a.Dai-b.Dai);
+        console.log(arrayS);
+    </script>
+</body>
+</html>
