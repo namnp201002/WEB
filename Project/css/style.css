@@ -44,6 +44,12 @@ a {
   margin-left: 32px;
   font-family: "Inter";
 }
+.header-container--menu .menu-item a {
+  transition: linear 0.15s;
+}
+.header-container--menu .menu-item a:hover {
+  color: #8C30F5;
+}
 .header-nav {
   display: flex;
 }
@@ -313,6 +319,10 @@ footer .footer-left--links ul li a {
   color: white;
   font-size: 16px;
   line-height: 26px;
+  transition: linear 0.15s;
+}
+footer .footer-left--links ul li a:hover {
+  color: #8C30F5;
 }
 footer .footer-left--links .list1 {
   width: 199px;

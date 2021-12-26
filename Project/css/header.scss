@@ -15,7 +15,14 @@
                 margin-left: 32px;
                 font-family: 'Inter';
                 
+                a{
+                    transition: linear 0.15s;
+                }
+                a:hover{
+                    color: #8C30F5;
+                }
             }
+            
         }
     }
     &-nav{
