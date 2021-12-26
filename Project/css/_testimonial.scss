@@ -6,6 +6,11 @@
     color: #18191F;
     position: relative;
     display: flex;
+    &-quotes{
+        position: absolute;
+        top: 64px;
+        left: 165px;
+    }
     .section-heading{
         position: absolute;
         width: 445px;

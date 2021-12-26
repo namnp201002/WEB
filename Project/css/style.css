@@ -2,6 +2,10 @@ body {
   margin: 0 auto;
 }
 
+a {
+  cursor: pointer;
+}
+
 .wrappers {
   max-width: 1440px;
   margin: 0 auto;
@@ -175,6 +179,11 @@ a {
   position: relative;
   display: flex;
 }
+.testimonial-quotes {
+  position: absolute;
+  top: 64px;
+  left: 165px;
+}
 .testimonial .section-heading {
   position: absolute;
   width: 445px;
@@ -277,6 +286,64 @@ a {
   font-weight: bold;
   font-size: 18px;
   line-height: 28px;
+}
+
+footer {
+  background-color: black;
+  font-family: Inter;
+  width: 1440px;
+}
+footer .footer {
+  padding: 56px 165px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-left--logo {
+  padding-bottom: 24px;
+}
+footer .footer-left--links ul {
+  margin: 0 0;
+  padding: 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+footer .footer-left--links ul li a {
+  color: white;
+  font-size: 16px;
+  line-height: 26px;
+}
+footer .footer-left--links .list1 {
+  width: 199px;
+  padding-bottom: 12px;
+}
+footer .footer-left--links .list2 {
+  width: 489px;
+  padding-bottom: 24px;
+}
+footer .footer-left--copyright {
+  font-size: 14px;
+  line-height: 24px;
+  color: #D9DBE1;
+}
+footer .footer-left--copyright p {
+  margin: 0 0;
+}
+footer .footer-right {
+  color: white;
+  display: grid;
+  height: 140px;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 16px 0;
+}
+footer .footer-right p {
+  display: inline;
+  height: 28px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 0;
 }
 
 /*# sourceMappingURL=style.css.map */
