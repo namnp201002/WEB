@@ -21,7 +21,7 @@ public class BookTestController {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc_demo",
-                    "root", "n@m0329573772");
+                    "root", "");
             statement = connection.createStatement();
             resultset = statement.executeQuery("select * from book");
             while (resultset.next()) {
@@ -53,7 +53,7 @@ public class BookTestController {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc_demo",
-                    "root", "n@m0329573772");
+                    "root", "");
             ps = connection.prepareStatement("select * from book where bookcode=?");
 
             ps.setInt(1, Integer.valueOf(bookcode));
@@ -85,7 +85,7 @@ public class BookTestController {
         int row;
         try{
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc_demo",
-                    "root", "n@m0329573772");
+                    "root", "");
             preparedStatement = connection.prepareStatement("delete from book where bookcode=?");
 
             preparedStatement.setInt(1, Integer.valueOf(bookcode));
